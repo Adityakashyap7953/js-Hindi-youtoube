@@ -48,6 +48,25 @@
 // //false
 
 //****************OPERATIONS ***************/
-let value =3
-let negvalue=-value
-console.log(negvalue)
+// let value =3
+// let negvalue=-value
+// console.log(negvalue)
+// // -3
+// console.log("1"+"2"+"3")
+// //123
+// console.log(1+2+"3")
+// //33
+// console.log((3+4)*5%3)
+// //5
+// console.log(true)
+// //true
+// console.log(+true)
+// //1 + is a binary conversion 
+// console.log(String)
+// //function:String
+// console.log(+String)
+// // NaN
+let gamecounter=100
+gamecounter++
+console.log(gamecounter);
+ //101
