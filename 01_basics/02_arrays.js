@@ -33,4 +33,4 @@ let n1=100
 let n2=200
 let n3=400
 console.log(Array.of(n1,n2,n3));
-// [ 100, 200, 400 ] array.of() gives the array in which you con=mbine element
+// [ 100, 200, 400 ] array.of() gives the array in which you combine element reD ANYOTHER ABOUT array.is(),array.of(),array.from().
