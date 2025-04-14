@@ -1,3 +1,5 @@
+// nonsingleton object const JsUser={}
+// sigleton object const JsUSer=new Object()
 //Object literals
 // Symbol define
 const mysym=Symbol("Key1")
