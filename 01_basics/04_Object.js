@@ -72,3 +72,4 @@ console.log(Object.entries(tinderuser));
 // [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isloggedin', 'false' ] ] array ke andr array me change kr deta hai keys or values ko ek sh rkhkr 
 console.log(tinderuser.hasOwnProperty('name'));
 // true only used property (keys not use values with the hasownProperty ())
+
