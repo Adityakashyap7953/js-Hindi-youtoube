@@ -5,12 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom | Chai aur code </title>
 </head>
-<body>
+<body style =background-color:#212121;color:#fff>
     <div class="parent">
+        <!-- coment -->
         <div class="day">Monday</div>
         <div class="day">Tuesday</div>
         <div class="day">Wednesday</div>
         <div class="day">Thursday</div>
     </div>
 </body>
+<script>
+  const parent =  document.querySelector(`.parent`)
+//   console.log(parent);
+//   console.log(parent.children);//gives the html collection 
+//   //for access first html element 
+//   console.log(parent.children[0]);//give first children element 
+  
+//if want to show inner data  of all html collection element then use for loop 
+ for(let i=0;i<parent.children.length;i++)
+ {
+    // console.log(parent.children[i].innerHTML);
+    
+ } 
+  parent.children[1].style.color="orange"// this change in tuesday
+//   console.log(parent.firstElementChild); //this gives the first child in the parent class 
+//   console.log(parent.lastElementChild);
+  
+  const dayone=document.querySelector(`.day`)
+//   console.log(dayone)
+//   console.log(dayone.parentElement); //through this by the avriable go to the parent 
+//   console.log(dayone.nextElementSibling);
+ 
+  console.log("Nodes : ", parent.childNodes);// child nodes gives all nodes thoes are linked in parent class this add every line break and text show it gives the 11 nodes in abouve example 
+  
+
+
+
+//   create element 
+
+</script>
 </html>
