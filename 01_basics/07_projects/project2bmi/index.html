@@ -13,13 +13,15 @@
             padding-top: 100px;
         }
     </style>
-    <script src="bmi.js"></script>
-</head>
+   </head> 
 <body class="body">
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        
     <form>
-    <p <label>Height in CM : </label><input type="text" id="heigth"/></p>
-    <p <label>Weight in Kg : </label><input type="text" id="weight"/></p>
-<button>Calculate</button>
+<p><label>Height in CM: </label><input type="text" id="height"/></p>
+<p><label>Weight in Kg: </label><input type="text" id="weight"/></p>
+<button type="submit">Calculate</button>
 <div id ="results"></div>
 <div id="weight-guide">
     <h3>BMI weight guide </h3>
@@ -28,6 +30,8 @@
     <p>Over weight = Greater then 24.9</p>
 </div>
 </form>
-
+</div>
 </body>
+<script src="bmi.js"></script>
+
 </html>
